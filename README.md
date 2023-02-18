@@ -1,5 +1,5 @@
 ## RetroNotify
-RetroNotify - A Javascript library to display notify messages with cool design and easy to customize.
+RetroNotify - A Javascript library to display notifications messages with cool design and easy to customize.
 
 ### Demo
 [Click to preview](https://91ahmed.github.io/projects/RetroNotify/demo/index.html)
