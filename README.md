@@ -49,7 +49,7 @@ new RetroNotify()
 ```
 
 ### How to Customize
-The class take one parameter which is an object to allow the user change the defult options.
+The class takes one parameter which is an object that allow the user to change the default options and customize the notification design.
 
 ``` javascript
 new RetroNotify({
