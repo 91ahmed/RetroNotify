@@ -10,7 +10,7 @@ RetroNotify - A Javascript library to display notify messages with cool design a
 ### How to use
 The library is pure Javascript only requires the two files js and css, don't need JQuery or any other library.
 
-```
+``` html
 // Include css at the end of the head tag
 <link rel="stylesheet" href="retronotify.css">
 
@@ -26,7 +26,7 @@ new RetroNotify()
 ```
 
 ### Example
-```
+``` html
 <html>
     <head>
         <meta charset="utf-8">
@@ -70,7 +70,24 @@ new RetroNotify({
 ```
 
 ### Available Styles
-`blue`  `red`  `black`  `green`  `yellow`  `sky`  `gray`
+* blue
+* red
+* black
+* green
+* yellow
+* sky
+* gray
 
 ### Available Animation
-`slideBottomLeft`  `slideBottomRight`  `slideTopLeft`  `slideTopRight`  `slideLeftTop`  `slideLeftBottom`  `slideRightTop`  `slideRightBottom`  `fadeBottomLeft`  `fadeBottomRight`  `fadeTopLeft`  `fadeTopRight`
+* slideBottomLeft
+* slideBottomRight
+* slideTopLeft
+* slideTopRight
+* slideLeftTop
+* slideLeftBottom
+* slideRightTop
+* slideRightBottom
+* fadeBottomLeft
+* fadeBottomRight
+* fadeTopLeft
+* fadeTopRight
