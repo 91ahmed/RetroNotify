@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.retro-notify-container{
+	position: fixed;
+    width: auto;
+    height: auto;
+	background-color: transparent !important;
+	padding: 20px;
+	z-index: 99999;
+}
+.retro-notify-main{
+	position: relative;
+	font-family: 'Mulish', sans-serif !important;
+	font-size: 13px;
+    background-color: #FFF;
+    color: #222;
+    width: 300px;
+    text-align: left;
+    direction: ltr;
+    letter-spacing: 0.5px;
+	-webkit-box-shadow: 0 3px 20px rgb(0 0 0 / 8%);
+	-moz-box-shadow: 0 3px 20px rgb(0 0 0 / 8%);
+	-ms-box-shadow: 0 3px 20px rgb(0 0 0 / 8%);
+	-o-box-shadow: 0 3px 20px rgb(0 0 0 / 8%);
+	box-shadow: 0 3px 20px rgb(0 0 0 / 8%);
+}
+.retro-notify-header{
+	font-weight: 700;
+	font-size: 14.5px;
+	text-transform: capitalize;
+	padding: 10px 20px;
+}
+.retro-notify-content{
+	padding: 15px 20px;
+}
+
+.retro-notify-close{
+	position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/** Default Style **/
+.retro-default-style{
+	bottom: 0;
+	right: 0;
+}
+
+
+/** RetorNotify slideBottomRight Animate **/
+.retro-slideBottomRight-ready{
+	bottom: -200px;
+	right: 0;
+	opacity: 0;
+}
+.retro-slideBottomRight-open{
+	bottom: 0;
+	opacity: 1;
+}
+.retro-slideBottomRight-close{
+	bottom: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideBottomLeft Animate **/
+.retro-slideBottomLeft-ready{
+	bottom: -200px;
+	left: 0;
+	opacity: 0;
+}
+.retro-slideBottomLeft-open{
+	bottom: 0;
+	opacity: 1;
+}
+.retro-slideBottomLeft-close{
+	bottom: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideTopRight Animate **/
+.retro-slideTopRight-ready{
+	top: -200px;
+	right: 0;
+	opacity: 0;
+}
+.retro-slideTopRight-open{
+	top: 0;
+	opacity: 1;
+}
+.retro-slideTopRight-close{
+	top: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideTopLeft Animate **/
+.retro-slideTopLeft-ready{
+	top: -200px;
+	left: 0;
+	opacity: 0;
+}
+.retro-slideTopLeft-open{
+	top: 0;
+	opacity: 1;
+}
+.retro-slideTopLeft-close{
+	top: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideLeftTop Animate **/
+.retro-slideLeftTop-ready{
+	top: 0;
+	left: -200px;
+	opacity: 0;
+}
+.retro-slideLeftTop-open{
+	left: 0;
+	opacity: 1;
+}
+.retro-slideLeftTop-close{
+	left: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideLeftBottom Animate **/
+.retro-slideLeftBottom-ready{
+	bottom: 0;
+	left: -200px;
+	opacity: 0;
+}
+.retro-slideLeftBottom-open{
+	left: 0;
+	opacity: 1;
+}
+.retro-slideLeftBottom-close{
+	left: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideRightTop Animate **/
+.retro-slideRightTop-ready{
+	top: 0;
+	right: -200px;
+	opacity: 0;
+}
+.retro-slideRightTop-open{
+	right: 0;
+	opacity: 1;
+}
+.retro-slideRightTop-close{
+	right: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify slideRightBottom Animate **/
+.retro-slideRightBottom-ready{
+	bottom: 0;
+	right: -200px;
+	opacity: 0;
+}
+.retro-slideRightBottom-open{
+	right: 0;
+	opacity: 1;
+}
+.retro-slideRightBottom-close{
+	right: -200px;
+	opacity: 0;
+}
+
+/** RetorNotify fadeBottomLeft Animate **/
+.retro-fadeBottomLeft-ready{
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+}
+.retro-fadeBottomLeft-open{
+	opacity: 1;
+}
+.retro-fadeBottomLeft-close{
+	opacity: 0;
+}
+
+/** RetorNotify fadeBottomRight Animate **/
+.retro-fadeBottomRight-ready{
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+}
+.retro-fadeBottomRight-open{
+	opacity: 1;
+}
+.retro-fadeBottomRight-close{
+	opacity: 0;
+}
+
+/** RetorNotify fadeTopRight Animate **/
+.retro-fadeTopRight-ready{
+	top: 0;
+	right: 0;
+	opacity: 0;
+}
+.retro-fadeTopRight-open{
+	opacity: 1;
+}
+.retro-fadeTopRight-close{
+	opacity: 0;
+}
+
+/** RetorNotify fadeTopLeft Animate **/
+.retro-fadeTopLeft-ready{
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.retro-fadeTopLeft-open{
+	opacity: 1;
+}
+.retro-fadeTopLeft-close{
+	opacity: 0;
+}
+
+
+/** Blue style **/
+.retro-blue{
+	background-color: #007197;
+	color: #FFF;
+}
+/** Red style **/
+.retro-red{
+	background-color: #F14C27;
+	color: #FFF;
+}
+/** Black style **/
+.retro-black{
+	background-color: #012D2D;
+	color: #FFF;
+}
+/** Green style **/
+.retro-green{
+	background-color: #6EB89C;
+	color: #FFF;
+}
+/** Yellow style **/
+.retro-yellow{
+	background-color: #FFAF65;
+	color: #012D2D;
+}
+/** Sky style **/
+.retro-sky{
+	background-color: #A0ECCF;
+	color: #012D2D;
+}
+/** Gray style **/
+.retro-gray{
+	background-color: #75A4A9;
+	color: #FFF;
+}

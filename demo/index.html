@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>Retro Notify</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/design.css">
+		<link rel="stylesheet" href="../css/retronotify.css">
+	</head>
+	<body>
+
+	    <div class="fixed-navbar">
+	        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://github.com/91ahmed/RetroNotify" target="_blank">
+                            <i class="fa-brands fa-github"></i> Github
+                        </a>
+                    </li>
+                </li>
+	        </nav>
+	    </div>
+
+		<div class="retro-content">
+			<button class="btn-retro btn-retro-blue">Blue Notify</button>
+			<button class="btn-retro btn-retro-yellow">Yellow Notify</button>
+			<button class="btn-retro btn-retro-red">Red Notify</button>
+			<button class="btn-retro btn-retro-black">Black Notify</button>
+			<button class="btn-retro btn-retro-sky">Sky Notify</button>
+			<button class="btn-retro btn-retro-gray">Gray Notify</button>
+			<button class="btn-retro btn-retro-white">White Notify</button>
+			<button class="btn-retro btn-retro-green">Green Notify</button>
+		</div>
+
+		<h1>Retro Notify</h1>
+		<p>Pick animation and click on the buttons to display notify messages</p>
+
+		<select class="form-control animate">
+			<option value="slideBottomRight" selected>Pick Animation</option>
+			<option value="null">...</option>
+			<option value="slideTopLeft">Slide Top Left</option>
+			<option value="slideTopRight">Slide Top Right</option>
+			<option value="slideBottomRight">Slide Bottom Right</option>
+			<option value="slideBottomLeft">Slide Bottom Left</option>
+			<option value="slideLeftTop">Slide Left Top</option>
+			<option value="slideLeftBottom">Slide Left Bottom</option>
+			<option value="slideRightTop">Slide Right Top</option>
+			<option value="slideRightBottom">Slide Right Bottom</option>
+			<option value="fadeTopLeft">Fade Top Left</option>
+			<option value="fadeTopRight">Fade Top Right</option>
+			<option value="fadeBottomRight">Fade Bottom Right</option>
+			<option value="fadeBottomLeft">Fade Bottom Left</option>
+		</select>
+
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="../js/retronotify.js"></script>
+
+		<script type="text/javascript">
+			el = (className) => {
+				return document.getElementsByClassName(className)[0]
+			}
+			
+			new RetroNotify({
+				style: 'white',
+				animate: 'slideTopRight',
+				contentHeader: '<i class="fa-regular fa-message"></i> Hello,',
+				contentText: 'nice to have you here, If you run into any issues reach out to me on GitHub.',
+				closeDelay: 10000
+			})
+
+			el('btn-retro-blue').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'blue',
+					animate: el('animate').value,
+					class: 'kokowawa',
+					id: 'kokogogo'
+				})
+			})
+
+			el('btn-retro-yellow').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'yellow',
+					animate: el('animate').value
+				})
+			})
+
+			el('btn-retro-red').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'red',
+					animate: el('animate').value
+				})
+			})
+
+			el('btn-retro-black').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'black',
+					animate: el('animate').value
+				})
+			})
+
+			el('btn-retro-sky').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'sky',
+					animate: el('animate').value
+				})
+			})
+
+			el('btn-retro-gray').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'gray',
+					animate: el('animate').value
+				})
+			})
+
+			el('btn-retro-white').addEventListener('click', () => {
+				new RetroNotify({
+					style: null,
+					animate: el('animate').value
+				})
+			})
+
+			el('btn-retro-green').addEventListener('click', () => {
+				new RetroNotify({
+					style: 'green',
+					animate: el('animate').value
+				})
+			})
+		</script>
+	</body>
+</html>
