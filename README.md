@@ -56,7 +56,7 @@ new RetroNotify({
     class: 'your_class', // add your own class to the container element (default null)
     id: 'your_id', // add your own id to the container element (default null)
     contentText: 'your_text', // change notify text content
-    contentHeader: 'your_header', // change notify header content (default 'Message')
+    contentHeader: 'your_header', // change notify header content
     contentClose: '×', // change close button content
     background: '#fff', // add your custom background (default #FFF white)
     color: '#012d2d', // add your custom text color (default #012D2D black)
