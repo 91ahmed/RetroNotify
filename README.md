@@ -1,6 +1,9 @@
 ## RetroNotify
 RetroNotify - A Javascript library to display notify messages with cool design and easy to customize.
 
+### Demo
+[Click to preview](https://91ahmed.github.io/projects/RetroNotify/demo/index.html)
+
 ### Download
 [Click here to download the library](https://91ahmed.github.io/projects/RetroNotify/demo/download/retronotify-v1.0.0.zip)
 
@@ -67,7 +70,7 @@ new RetroNotify({
 ```
 
 ### Available Styles
-`blue`, `red`, `black`, `green`, `yellow`, `sky`, `gray`
+`blue`  `red`  `black`  `green`  `yellow`  `sky`  `gray`
 
 ### Available Animation
-`slideBottomLeft`, `slideBottomRight`, `slideTopLeft`, `slideTopRight`, `slideLeftTop`, `slideLeftBottom`, `slideRightTop`, `slideRightBottom`, `fadeBottomLeft`, `fadeBottomRight`, `fadeTopLeft`, `fadeTopRight`
+`slideBottomLeft`  `slideBottomRight`  `slideTopLeft`  `slideTopRight`  `slideLeftTop`  `slideLeftBottom`  `slideRightTop`  `slideRightBottom`  `fadeBottomLeft`  `fadeBottomRight`  `fadeTopLeft`  `fadeTopRight`
