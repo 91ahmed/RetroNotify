@@ -15,7 +15,7 @@ The library is pure Javascript only requires the two files js and css, don't nee
 <link rel="stylesheet" href="retronotify.css">
 
 // Include js at the end of the body tag
-<script src="retronotify.js"></script>
+<script src="retronotify.js"></script> 
 ```
 
 ### Run RetroNofity
