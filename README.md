@@ -8,7 +8,7 @@ RetroNotify - is a Javascript library to يisplay notification messages with a s
 [Click here to download the library](https://91ahmed.github.io/projects/RetroNotify/demo/download/retronotify-v1.0.0.zip)
 
 ### How to use
-The library is pure Javascript only requires the two files js and css, don't need JQuery or any other library.
+The library is written in pure JavaScript and only requires two files: a JavaScript file and a CSS file. It does not require jQuery.
 
 ``` html
 // Include css at the end of the head tag
