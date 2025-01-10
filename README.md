@@ -18,8 +18,8 @@ The library is written in pure JavaScript and only requires two files: a JavaScr
 <script src="retronotify.js"></script> 
 ```
 
-### Run RetroNofity
-Just create new instance from RetroNotify.
+### Running RetroNofity
+Simply create a new instance of RetroNotify.
 
 ``` javascript
 new RetroNotify()
